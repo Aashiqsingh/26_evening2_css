@@ -70,9 +70,78 @@
         border: none;
     }
     .youtube{
-        height: 500px;
+        height: 400px;
         width: 100%;
         background-color: #F0F0F0;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .youtube iframe{
+        padding: 7px;
+    }
+    .poster{
+        height: 920px;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .poster>img{
+        width: 550px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.082) , -10px -10px 10px rgba(0, 0, 0, 0.082);
+        margin: 10px;
+    }
+    .welcome{
+        height: 650px;
+        width: 100%;
+        background-color: #F0F0F0;
+        display: flex;
+    }
+    .list{
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 40px;
+        /* font-weight: 900; */
+    }
+    .list p{
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .picture{
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .inner-list{
+        border-left: 1px solid orangered;
+    }
+    .inner-list p{
+        line-height: 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.148);
+    }
+    .inner-list i{
+        font-size: 30px;
+        margin-left: -16px;
+        color: orangered;
+    }
+    
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        gap: 60px;
+    }
+    .flex p{
+        font-size: 20px;
+        /* text-align: center; */
+    }
+    .job{
+        border-right: 1px solid rgba(0, 0, 0, 0.123);
+        width: 120px;
+    }
+    .campus{
+        border-right: 1px solid rgba(0, 0, 0, 0.123);
+        width: 120px;
     }
 </style>
 
@@ -134,8 +203,49 @@
         <!-- register ending -->
 
         <div class="youtube">
-
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j1_hkYd_31o?si=z6vn5fD9qe-cyh03" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtSwXvaQwNY?si=CxcftRw0Qrgq0-OW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <!-- youtube ending -->
+
+        <div class="poster">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/07/NamraShah_page-0001.jpg" alt="">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/04/IMG-20210412-WA0004.jpg" alt="">
+        </div>
+        <!-- poster ending -->
+         <div class="welcome">
+            <div class="list">
+                <h2>Welcome To Royal Technosoft</h2>
+                <p>Add to your IT skills with short term and Professional courses from Royal Technosoft with Live Projects in Basic and Advance technologies.</p>
+
+                <div class="inner-list">
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Training in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Placement</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Live Project Training</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Soft skill development</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Certification  in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Advanced Programs</p>
+                </div>
+            </div>
+            <div class="picture">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/dhirajpoojara.png" alt="">
+
+                <div class="flex">
+                <div class="job">
+                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/jobfair-1.png" alt="">
+                    <p>Job Fair</p>
+                </div>
+                <div class="campus">
+                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/campuss.png" alt="">
+                    <p>Campus <br> Interviews</p>
+                </div>
+                <div class="interview">
+                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/pertinalize_interview.png" alt="">
+                    <p>Personalized <br> Interviews</p>
+                </div>
+                </div>
+            </div>
+         </div>
 
     </div>
 
