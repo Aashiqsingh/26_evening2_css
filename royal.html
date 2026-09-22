@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
         integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
 <style>
     * {
@@ -55,6 +58,7 @@
     .fa-phone-volume {
         font-size: 25px;
     }
+
     .register {
         text-align: center;
         display: flex;
@@ -62,86 +66,225 @@
         gap: 80px;
         padding: 30px 0;
     }
-    .register button{
+
+    .register button {
         width: 500px;
         height: 40px;
         background-color: orangered;
         color: white;
         border: none;
     }
-    .youtube{
+
+    .youtube {
         height: 400px;
         width: 100%;
         background-color: #F0F0F0;
         text-align: center;
         padding-top: 50px;
     }
-    .youtube iframe{
+
+    .youtube iframe {
         padding: 7px;
     }
-    .poster{
+
+    .poster {
         height: 920px;
         width: 100%;
         text-align: center;
         padding-top: 60px;
     }
-    .poster>img{
+
+    .poster>img {
         width: 550px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.082) , -10px -10px 10px rgba(0, 0, 0, 0.082);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.082), -10px -10px 10px rgba(0, 0, 0, 0.082);
         margin: 10px;
     }
-    .welcome{
+
+    .welcome {
         height: 650px;
         width: 100%;
         background-color: #F0F0F0;
         display: flex;
     }
-    .list{
+
+    .list {
         width: 50%;
         padding-top: 50px;
         padding-left: 40px;
         /* font-weight: 900; */
     }
-    .list p{
+
+    .list p {
         font-size: 18px;
         margin-bottom: 24px;
     }
-    .picture{
+
+    .picture {
         width: 50%;
         padding-top: 50px;
         padding-left: 20px;
     }
-    .inner-list{
+
+    .inner-list {
         border-left: 1px solid orangered;
     }
-    .inner-list p{
+
+    .inner-list p {
         line-height: 50px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.148);
     }
-    .inner-list i{
+
+    .inner-list i {
         font-size: 30px;
         margin-left: -16px;
         color: orangered;
     }
-    
-    .flex{
+
+    .flex {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 250px;
         gap: 60px;
     }
-    .flex p{
+
+    .flex p {
         font-size: 20px;
         /* text-align: center; */
     }
-    .job{
+
+    .job {
         border-right: 1px solid rgba(0, 0, 0, 0.123);
         width: 120px;
     }
-    .campus{
+
+    .campus {
         border-right: 1px solid rgba(0, 0, 0, 0.123);
         width: 120px;
+    }
+
+    .orange {
+        height: 540px;
+        width: 100%;
+        background-color: rgba(255, 68, 0, 0.776);
+        padding-top: 50px;
+    }
+
+    .wrap {
+        height: 540px;
+        width: 100%;
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/039/898/342/small/ai-generated-city-skyline-building-on-blue-background-photo.jpg');
+        background-size: cover;
+    }
+
+    .orange h1 {
+        text-align: center;
+        font-size: 46px;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    .paraImg {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .paraImg img {
+        width: 45%;
+        border: 5px solid white;
+    }
+
+    .paraImg p {
+        width: 48%;
+        color: white;
+        font-size: 19px;
+        text-align: justify;
+    }
+
+    .service {
+        height: 630px;
+        width: 100%;
+        display: flex;
+    }
+
+    .hardware {
+        height: 630px;
+        width: 50%;
+        background-color: #F0F0F0;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .hardware h1 {
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+
+    .software {
+        height: 630px;
+        width: 50%;
+        background-color: #E7E5E5;
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .software h1 {
+        font-size: 46px;
+    }
+
+    .software img {
+        padding: 10px;
+    }
+
+    .point i {
+        font-size: 24px;
+        color: orangered;
+        margin-right: 10px;
+    }
+
+    .point {
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .team {
+        height: 800px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.852);
+    }
+
+    .wrap2 {
+        height: 800px;
+        width: 100%;
+        background-image: url('https://img.magnific.com/free-photo/high-end-modern-apartment-with-home-office-desk-used-remote-job_482257-120652.jpg?semt=ais_hybrid&w=740&q=80');
+        background-size: cover;
+    }
+
+    .team {
+        padding-top: 60px;
+    }
+
+    .team h1 {
+        text-align: center;
+        color: white;
+        font-size: 46px;
+        margin-bottom: 10px;
+    }
+    .box{
+        width: 200px;
+        margin: auto;
+    }
+    .name{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-style: italic;
+        font-size: 20px;
+    }
+    .name h3{
+        font-style: normal;
     }
 </style>
 
@@ -167,19 +310,24 @@
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/hallticketbgnew.png" class="d-block w-100" alt="...">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/hallticketbgnew.png"
+                            class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider2.jpg" class="d-block w-100" alt="...">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider2.jpg"
+                            class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image3.jpg" class="d-block w-100" alt="...">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image3.jpg"
+                            class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image4.jpg" class="d-block w-100" alt="...">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image4.jpg"
+                            class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image5.jpg" class="d-block w-100" alt="...">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image5.jpg"
+                            class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -203,8 +351,14 @@
         <!-- register ending -->
 
         <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/j1_hkYd_31o?si=z6vn5fD9qe-cyh03" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtSwXvaQwNY?si=CxcftRw0Qrgq0-OW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j1_hkYd_31o?si=z6vn5fD9qe-cyh03"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtSwXvaQwNY?si=CxcftRw0Qrgq0-OW"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <!-- youtube ending -->
 
@@ -213,17 +367,20 @@
             <img src="https://royaltechnosoft.com/wp-content/uploads/2021/04/IMG-20210412-WA0004.jpg" alt="">
         </div>
         <!-- poster ending -->
-         <div class="welcome">
+        <div class="welcome">
             <div class="list">
                 <h2>Welcome To Royal Technosoft</h2>
-                <p>Add to your IT skills with short term and Professional courses from Royal Technosoft with Live Projects in Basic and Advance technologies.</p>
+                <p>Add to your IT skills with short term and Professional courses from Royal Technosoft with Live
+                    Projects in Basic and Advance technologies.</p>
 
                 <div class="inner-list">
-                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Training in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Training in Java,Oracle,Python And Other
+                        Technology</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Get Placement</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Live Project Training</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Soft skill development</p>
-                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Certification  in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Certification in Java,Oracle,Python And Other
+                        Technology</p>
                     <p><i class="fa-solid fa-caret-up fa-rotate-90"></i>Advanced Programs</p>
                 </div>
             </div>
@@ -231,21 +388,131 @@
                 <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/dhirajpoojara.png" alt="">
 
                 <div class="flex">
-                <div class="job">
-                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/jobfair-1.png" alt="">
-                    <p>Job Fair</p>
-                </div>
-                <div class="campus">
-                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/campuss.png" alt="">
-                    <p>Campus <br> Interviews</p>
-                </div>
-                <div class="interview">
-                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/pertinalize_interview.png" alt="">
-                    <p>Personalized <br> Interviews</p>
-                </div>
+                    <div class="job">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/jobfair-1.png" alt="">
+                        <p>Job Fair</p>
+                    </div>
+                    <div class="campus">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/campuss.png" alt="">
+                        <p>Campus <br> Interviews</p>
+                    </div>
+                    <div class="interview">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/pertinalize_interview.png"
+                            alt="">
+                        <p>Personalized <br> Interviews</p>
+                    </div>
                 </div>
             </div>
-         </div>
+        </div>
+        <!-- welcome ending -->
+
+        <div class="wrap">
+            <div class="orange">
+                <h1>Why Royal Technosoft?</h1>
+                <div class="paraImg">
+                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/accounting_img.jpg" alt="">
+                    <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.
+                        In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat
+                        where we are currently conducting business. Furthermore, our experts completed a number of
+                        government projects for India. Our goal is to comprehend the business goals of our clients and
+                        be seen as one of their most organizational aspects. Our primary goal is to create solutions to
+                        clients that are quick, simple, and low-effort. Process to ensure prompt response without
+                        compromising quality is something we always do.</p>
+                </div>
+            </div>
+        </div>
+        <!-- wrap ending -->
+
+        <div class="service">
+            <div class="hardware">
+                <h1>List Services We Offer</h1>
+                <div class="point">
+                    <p><i class="fa-solid fa-arrow-right"></i>Ethical Hacking</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For SQL</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For C#</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Python</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Ruby on Rails</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Android</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For iPhone</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Hadoop</p>
+                </div>
+            </div>
+            <div class="software">
+                <h1>Software We Work With</h1>
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Ethical_Hacking.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/oracle-1.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/java.jpg" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/artificial_inteligence.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Python.jpg" alt="">
+            </div>
+        </div>
+        <!-- service ending -->
+        <div class="wrap2">
+            <div class="team">
+                <h1>Meet The Team</h1>
+                <div class="slider2">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team1.png"  class="d-block w-100" alt="...">
+                                </div>
+                                <div class="name">
+                                    <p>She is an expert with 5+ years of expertise in developing Android and Flutter applications and Trainer, including designing, developing, testing, and managing mobile applications.</p>
+                                    <h3>Arati Kyada</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Alakh-Pandya.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Rahul-Kirpekar.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Samir-Vithlani.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Krishna-Shah.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Madhusudan-Soneji.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Kamal-Soneji.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
