@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 300px;
+        width: 300px;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRff68ZpMbgM8R0ZYmduvu-BR-84mptq4OAs7BRYeO6HxQ6uXxvy3rDQF4o&s=10');
+        background-size: cover;
+        /* background-size: 300px 300px; */
+        background-color: red;
+    }
+    .box::before{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        /* background-color: rgba(0, 0, 255, 0.678); */
+        background-image: url('https://pbs.twimg.com/profile_images/1432419933808300032/yvXaa_AD_400x400.jpg');
+        background-size: cover;
+        opacity: 0.7;
+        bottom: 243px;
+        /* right: 970px; */
+        transition: 1s;
+    }
+    .box:hover::before{
+        height: 0;
+        width: 0;
+        transition: 1s;
+    }
+</style>
+<body>
+    
+    <div class="box"></div>
+
+
+
+</body>
+</html>
