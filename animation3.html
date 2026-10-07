@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* background-color: black; */
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        border: 10px solid rgba(0, 0, 0, 0.196);
+        border-radius: 50%;
+
+
+        /* border-top: 10px solid red; */
+        
+
+        animation-name: round;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        margin: 100px 400px;
+
+        background: repeating-radial-gradient(black 20%, white 30%);
+        animation-direction: alternate;
+        
+    }
+    @keyframes round{
+        0%{
+            transform: rotate(0) scale(4);
+        }
+        100%{
+            transform: rotate(360deg) scale(7.5);
+        }
+    }
+</style>
+<body >
+    
+
+    <div class="box">
+
+    </div>
+
+</body>
+</html>
