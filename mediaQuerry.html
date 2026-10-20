@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 500px;
+        width: 100%;
+        background-color: teal;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .para{
+        width: 65%;
+        font-size: 18px;
+        color: white;
+        font-family: arial;
+        text-align: justify;
+    }
+
+
+    @media(max-width:500px)
+    {
+        .box{
+            background-color: red;
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+        .para{
+            width: 100%;
+        }
+        .logo{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .logo img{
+            border-radius: 20px;
+            border: 4px yellow dotted;
+        }
+    }
+
+    @media(min-width:500px) and (max-width:900px){
+        .box{
+            background-color: green;
+            height: 100%;
+            flex-direction: column;
+            padding: 10px;
+        }   
+        .logo{
+            width: 50%;
+            border: 5px white dotted;
+            margin: 10px;
+        }
+        .para{
+            width: 90%;
+        }
+    }
+
+
+    @media(min-width:900px){
+        .box{
+            background-color: blue;
+        }
+    }
+</style>
+<body>
+
+    <!-- media querry: it is used to create a responsive website -->
+
+    
+    <div class="box">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNuIPf5KCARUTysLUkVnoot2yfjyIAwqhHNinP4rrdvoRT4oGe3CjY0cPp&s=10" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem esse minus repellendus. Voluptatibus reprehenderit deserunt adipisci dolor necessitatibus iure pariatur sit ducimus, labore, tempora aspernatur magnam ipsum ipsa, doloribus dolores porro vel possimus odio fugiat accusantium? Mollitia totam iusto ipsam minima animi, autem deserunt magni a perspiciatis impedit obcaecati, in, eligendi nam asperiores assumenda esse minus officiis nemo dolor est. Doloribus architecto excepturi voluptatem quo porro. Eum, qui! Cum deserunt ad, deleniti velit alias ab tempora temporibus quam fugiat praesentium cumque molestias? Sint quia placeat perspiciatis! Esse doloremque quam suscipit quibusdam sed, asperiores eius aliquid corporis totam veniam voluptates, quasi, blanditiis commodi quod cum magnam iusto. Vel vitae eveniet temporibus. Repellendus dolore, quod dolorem nostrum rerum impedit mollitia, quidem iste dolor a tempore quis, amet quibusdam ducimus itaque veniam aliquid. Minus quam vitae natus, corrupti veniam cum nihil molestias, voluptates eaque perspiciatis inventore cumque tempore at consequuntur similique est porro hic laudantium? Tempora sapiente praesentium corporis. Corporis iure ad harum animi impedit, iusto libero ducimus adipisci nihil. Veritatis corporis animi debitis, porro molestias a aliquam cumque inventore quidem deserunt, sit quo ad ex beatae. Enim facilis, modi reiciendis eaque dolor ratione corporis incidunt quasi esse temporibus assumenda quos minus quaerat.
+        </div>
+    </div>
+
+
+</body>
+</html>
